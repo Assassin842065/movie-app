@@ -36,3 +36,74 @@
     transform: rotate(360deg);
   }
 }
+.nav{
+    display: flex;
+    gap: .2rem;
+}
+.opt{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  color: #4b4b4b;
+}
+#home{
+  padding-top: 1rem;
+}
+#favourites{
+  padding-top: 1.4rem;
+}
+.banner-card{
+  width: 100vw;
+  height: 90vh;
+  position: relative;
+  color: white;
+}
+.movieBanner{
+  width: 100vw;
+  height: 90vh;
+}
+.movieTitle{
+  position: absolute;
+  top: 65vh;
+  left: 1vw;
+}
+.movieText{
+  position: absolute;
+  top: 70vh;
+  left: 1vw;
+}
+.movie-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin: 1rem;
+}
+.movieCard{
+     width: 20vw;
+     height: 35vh;
+     position: relative;
+}
+.movieImg{
+    width: 20vw;
+    height: 35vh;
+}
+.textImg{
+  position: absolute;
+  color: white;
+}
+.butImg{
+  position: absolute;
+  top: 25vh;
+  width: 100%;
+}
+.moviePaging{
+  display: flex;
+  justify-content: center;
+}
+.table-genere{
+  padding: 3rem;
+}
+.table-movies{
+  padding: 3rem;
+}
