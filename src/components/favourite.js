@@ -128,7 +128,7 @@ export default class favourite extends Component {
         return (
             <>
                 <div className='row favourite-table'>
-                    <div className='col-3'>
+                    <div className='col-lg-3 col-sm-12'>
                         <ul class="list-group table-genere">
                             {
                                 this.state.genres.map((genre) => (
@@ -139,7 +139,7 @@ export default class favourite extends Component {
                             }
                         </ul>
                     </div>
-                    <div className='col-9 table-movies'>
+                    <div className='col-lg-9 table-movies col-sm-12'>
                         <div className='row'>
                             <input type='text' className='input-group-text col' placeholder='search' value={this.state.currText
                             } onChange={this.handleSearch}></input>

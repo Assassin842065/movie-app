@@ -32,78 +32,149 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.nav{
-    display: flex;
-    gap: .2rem;
+
+.nav {
+  display: flex;
+  gap: .2rem;
 }
-.opt{
+
+.opt {
   display: flex;
   justify-content: center;
   gap: 1rem;
   color: #4b4b4b;
 }
-#home{
+
+#home {
   padding-top: 1rem;
 }
-#favourites{
+
+#favourites {
   padding-top: 1.4rem;
 }
-.banner-card{
+
+.banner-card {
   width: 100vw;
   height: 90vh;
   position: relative;
   color: white;
 }
-.movieBanner{
+
+.movieBanner {
   width: 100vw;
   height: 90vh;
 }
-.movieTitle{
+
+.movieTitle {
   position: absolute;
   top: 65vh;
   left: 1vw;
 }
-.movieText{
+
+.movieText {
   position: absolute;
   top: 70vh;
   left: 1vw;
 }
-.movie-cont{
+
+.movie-cont {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 1rem;
   margin: 1rem;
 }
-.movieCard{
-     width: 20vw;
-     height: 35vh;
-     position: relative;
+
+.movieCard {
+  width: 20vw;
+  height: 35vh;
+  position: relative;
 }
-.movieImg{
-    width: 20vw;
-    height: 35vh;
+
+.movieImg {
+  width: 20vw;
+  height: 35vh;
 }
-.textImg{
+
+.textImg {
   position: absolute;
   color: white;
 }
-.butImg{
+
+.butImg {
   position: absolute;
   top: 25vh;
   width: 100%;
 }
-.moviePaging{
+
+.moviePaging {
   display: flex;
   justify-content: center;
 }
-.table-genere{
+
+.table-genere {
   padding: 3rem;
 }
-.table-movies{
+
+.table-movies {
   padding: 3rem;
+  overflow: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .banner-card {
+    width: 100vw;
+    height: 50vh;
+    position: relative;
+    color: white;
+  }
+
+  .movieBanner {
+    width: 100vw;
+    height: 50vh;
+  }
+
+  .movieTitle {
+    position: absolute;
+    top: 20vh;
+    left: 1vw;
+  }
+
+  .movieText {
+    position: absolute;
+    top: 26vh;
+    left: 1vw;
+    font-size: .7rem;
+  }
+
+  .movie-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: .8rem;
+    margin: .8rem;
+  }
+
+  .movieCard {
+    width: 43vw;
+    height: 30vh;
+    position: relative;
+  }
+
+  .movieImg {
+    width: 45vw;
+    height: 30vh;
+  }
+
+  .butImg {
+    position: absolute;
+    top: 22vh;
+    width: 100%;
+    font-size: .8rem;
+  }
 }
